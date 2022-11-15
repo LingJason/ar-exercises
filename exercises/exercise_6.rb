@@ -10,8 +10,8 @@ puts "----------"
 
 # Your code goes here ...
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Tom", last_name: "Brady", hourly_rate: 10000)
-@store1.employees.create(first_name: "Gary", last_name: "Veen", hourly_rate: 5)
-@store2.employees.create(first_name: "Jason", last_name: "Ling", hourly_rate: 60)
-@store2.employees.create(first_name: "Alex", last_name: "Wu", hourly_rate: 30)
-@store2.employees.create(first_name: "Paul", last_name: "Santos", hourly_rate: 23)
+@store1.employees.create(first_name: "Tom", last_name: "Brady", hourly_rate: 40)
+@store1.employees.create(first_name: "Gary", last_name: "Veen", hourly_rate:45 )
+@store2.employees.create(first_name: "Jason", last_name: "Ling", hourly_rate: 199)
+@store2.employees.create(first_name: "Alex", last_name: "Wu", hourly_rate: 65)
+@store2.employees.create(first_name: "Paul", last_name: "Santos", hourly_rate: 75)

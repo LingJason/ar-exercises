@@ -10,3 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "choose a story name"
+
+store = gets.chomp
+
+nextStory = Store.create(
+  name:store 
+)
