@@ -10,10 +10,13 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
-puts "choose a story name"
+puts "choose a store name"
 
 store = gets.chomp
 
-nextStory = Store.create(
-  name:store 
+Store.create(
+  name:store,
+  annual_revenue: 5,
+  mens_apparel: false,
+  womens_apparel: true
 )

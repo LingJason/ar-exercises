@@ -31,7 +31,9 @@ Store.create(
 @mens_stores = Store.where(mens_apparel:true)
 @mens_stores.each do |element|
   puts "#{element.name} and their annual revenue: #{element.annual_revenue}"
+end
 
-  @womens_stores = Store.where(womens_apparel:true and annual_revenue < 1000000)
+@womens_stores = Store.where(womens_apparel:true).where('annual_revenue < 1000000')
 @womens_stores.each do |element|
   puts "#{element.name} and their annual revenue: #{element.annual_revenue}"
+end
